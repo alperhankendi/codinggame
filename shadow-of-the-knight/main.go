@@ -24,6 +24,7 @@ func main() {
 			X0 = (W-1)/2 // index-0
 			Y0 = (H-1)/2
 		}else {
+			
 			for _,k := range bombDir{
 				if k=='L'{
 					HighX = X0 - 1
